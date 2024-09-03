@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Bungee+Shade&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Saira+Stencil+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Monofett&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Offside&display=swap');
+
+
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.monofett-regular {
+    font-family: "Monofett", monospace;
+    font-weight: 400;
+    font-style: normal;
+  }
+
+
+  .offside-regular {
+    font-family: "Offside", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+
+
+  /* FloatingText.module.css */
+@keyframes floatLeftToRight {
+  0% {
+    transform: translateX(-100%);
+  }
+  50% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(100%);
+  }
+}
+
+.floatingText {
+  display: inline-block;
+  animation: floatLeftToRight 4s ease-in-out infinite;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+
+
+
+
+
+  
